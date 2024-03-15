@@ -6,12 +6,14 @@ public class Student {
     int stuID;
     int age;
     Student(){
+
     }
     //不写构造会默认有个无参构造 Student(){}
     // 构造方法
+
     Student(String name,String classname,int stuID,int age){
         this.name = name;//this可以访问成员变量。------当成员变量域局变量同名时不能省略this
-        this.classname = classname;
+        this.classname = classname;//this.成员变量名 访问成员变量 this.方法名() 调用方法 this()调用构造方法
         this.stuID = stuID;
         this.age = age;
     }
