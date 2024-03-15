@@ -2,24 +2,29 @@ package ooday01;
 
 public class Car {
     String brand;
-    Double price;
     String color;
-    Car(){ }
-    Car(String brand,Double price,String color){
+    Double price;
+    Car(){}
+
+    Car(String brand,String color,Double price){
         this.brand = brand;
-        this.price = price;
         this.color = color;
+        this.price = price;
     }
     void start(){
-        System.out.println(brand+"牌子的"+color+"色的"+price+"块钱的车启动了");
-    }
-    void run(){
-        System.out.println(brand+"牌子的"+color+"色的"+price+"块钱的车跑了");
-    }
-    void stop(){
-        System.out.println(brand+"牌子的"+color+"色的"+price+"块钱的车停止了");
-    }
+        System.out.println(brand+"品牌"+color+"颜色"+price+"价格的车启动");
 
     }
+    void run(){
+        System.out.println(brand+"品牌"+color+"颜色"+price+"价格的车行驶");
+    }
+    void stop(){
+        System.out.println(brand+"品牌"+color+"颜色"+price+"价格的车停止");
+    }
+
+}
+
+
+
 
 

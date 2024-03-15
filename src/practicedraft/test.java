@@ -1,15 +1,17 @@
 package practicedraft;
-
+//int arr[]={10,9,1,20,19,30,5};
 public class test {
     public static void main(String[] args) {
-        for (int i = 1; i <= 9; i++) {
-            // 内层循环控制被乘数
-            for (int j = 1; j <= i; j++) {
-                // 输出乘法表达式
-                System.out.print(j + " * " + i + " = " + (i * j) + "\t");
+        int arr[]={10,9,1,20,19,30,5};
+        int max = arr[0];
+        int arrow = 0;
+        for (int i=1;i<arr.length;i++){
+            if(max<arr[i]){
+                max = arr[i];
+                arrow = i;
+
             }
-            // 输出换行
-            System.out.println();
-        }
+        }System.out.println(arrow);
+        System.out.println(max);
     }
 }
