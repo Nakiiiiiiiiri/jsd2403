@@ -9,6 +9,7 @@ public class StudentTest {
         zs.stuID = 1;
 
         zs.sayHi();
+        zs.playwith("狗");
 
         Student ll = new Student();
         ll.name ="李林";
@@ -17,10 +18,12 @@ public class StudentTest {
         ll.stuID = 2;
 
         ll.sayHi();
+        ll.playwith("狗");
 
         Student Konata = new Student();
         Konata.name = "Konata";
 
         Konata.sayHi();//String 默认值为null,int 为 0；
+        Konata.playwith("Kagami");
     }
 }
