@@ -8,6 +8,6 @@ public class Fish extends Animal {
         super(name, age, color);
     }
     void eat(){
-        System.out.println(name+"在吃饲料");
+        System.out.println(age+"岁的"+color+"色的"+name+"在吃饲料");
     }
 }

@@ -8,10 +8,13 @@ public class AnimalExtendsTest {
         Fish xia = new Fish("虾头男",23,"虾色");
         animal.eat();
         kun.eat();
+        kun.drink();
         kun.layeggs();
         gou.eat();
+        gou.drink();
         gou.lookhome();
         xia.eat();
+        xia.drink();
 
     }
 }

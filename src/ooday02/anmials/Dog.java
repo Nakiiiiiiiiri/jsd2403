@@ -8,9 +8,9 @@ public class Dog extends Animal {
         super(name, age, color);
     }
     void lookhome(){
-        System.out.println(name+"在看家");
+        System.out.println(age+"岁的"+color+"色的"+name+"在看家");
     }
     void eat(){
-        System.out.println(name+"在吃骨头");
+        System.out.println(age+"岁的"+color+"色的"+name+"在吃骨头");
     }
 }
