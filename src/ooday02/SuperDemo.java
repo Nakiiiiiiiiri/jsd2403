@@ -27,7 +27,7 @@ class Boo extends Aoo{
 }
 
 class Coo{
-    Coo(){}
+    //Coo(){}
     Coo(int a){}
 }
 class Doo extends Coo{
