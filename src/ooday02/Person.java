@@ -4,16 +4,19 @@ public class Person {
     String name;
     int age;
     String address;
-    Person(){}
+    Person(){
+        //System.out.println("Person超类");
+    }
     Person(String name,int age,String address){
         this.name=name;
         this.age=age;
         this.address=address;
     }
-    void eat(){
+
+    void Eat(){
         System.out.println(name+"正在吃饭");
     }
-    void sleep(){
+    void Sleep(){
         System.out.println(name+"正在睡觉");
     }
     void SayHi(){
