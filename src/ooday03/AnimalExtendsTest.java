@@ -10,6 +10,7 @@ public class AnimalExtendsTest {
         kun.eat();
         kun.drink();
         kun.layeggs();
+        gou.swim();
         gou.eat();
         gou.drink();
         gou.lookhome();
