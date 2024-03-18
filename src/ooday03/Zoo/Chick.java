@@ -1,4 +1,4 @@
-package ooday03;
+package ooday03.Zoo;
 
 public class Chick extends Animal {
     Chick(){}
@@ -6,9 +6,9 @@ public class Chick extends Animal {
         super(name, age, color);
     }
     void layeggs(){
-        System.out.println(age+"岁的"+color+"色的"+name+"哭哭下蛋");
+        System.out.println(age+"岁的"+color+"色的"+name+"鸡库库下蛋");
     }
     void eat(){
-        System.out.println(age+"岁的"+color+"色的"+name+"在吃谷子");
+        System.out.println(age+"岁的"+color+"色的"+name+"鸡在吃谷子");
     }
 }

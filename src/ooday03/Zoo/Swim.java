@@ -1,4 +1,4 @@
-package ooday03;
+package ooday03.Zoo;
 
 public interface Swim {
     void swim();
