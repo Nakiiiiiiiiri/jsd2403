@@ -2,6 +2,7 @@ package ooday04;
 
 public class Dog extends Animal implements Swim {
     Dog(){}
+
     Dog(String name,int age,String color){
         super(name, age, color);
     }
@@ -14,4 +15,5 @@ public class Dog extends Animal implements Swim {
     public void swim(){
         System.out.println(age+"岁的"+color+"色的"+name+"狗正在游泳");
     }
+
 }

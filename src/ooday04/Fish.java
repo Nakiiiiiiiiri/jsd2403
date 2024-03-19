@@ -1,6 +1,7 @@
 package ooday04;
 
 public class Fish extends Animal implements Swim {
+
     Fish(){}
     Fish(String name,int age,String color){
         super(name, age, color);
