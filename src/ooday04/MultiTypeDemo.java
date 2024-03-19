@@ -23,7 +23,7 @@ public class MultiTypeDemo {
         master.feed(fish);
          */
 
-        /*//演示向上造型(多态)的第2点应用:
+        //演示向上造型(多态)的第2点应用:
         //Animal o = new Animal(); //编译错误，抽象类不能被实例化
         Animal[] animals = new Animal[5]; //创建Animal数组对象
         animals[0] = new Dog("小黑",2,"黑"); //向上造型
@@ -34,9 +34,21 @@ public class MultiTypeDemo {
         for(int i=0;i<animals.length;i++){ //遍历所有动物
             animals[i].drink(); //每个动物喝水
             animals[i].eat(); //每个动物吃饭
-        }*/
+            if(animals[i] instanceof Dog){
+                Dog dog = (Dog) animals[i];
+                dog.lookhome();
+            }
+            if(animals[i] instanceof Chick){
+                Chick chick = (Chick) animals[i];
+                chick.layeggs();
+            }
+            if(animals[i] instanceof Swim){
+                Swim swim = (Swim) animals[i];
+                swim.swim();
+            }
+        }
 
-        Animal o = new Dog();
+       /* Animal o = new Dog();
         Dog a = (Dog) o;
         Swim b = (Swim) o;
         if(o instanceof Fish){
@@ -45,7 +57,7 @@ public class MultiTypeDemo {
             System.out.println("o不是Fish类型");
         }
 
-        System.out.println(o instanceof Fish);
+        System.out.println(o instanceof Fish);*/
 
     }
 
