@@ -32,7 +32,6 @@ public class MultiTypeDemo {
         animals[3] = new Fish("小花",2,"花");
         animals[4] = new Chick("小灰",3,"灰");
         for(int i=0;i<animals.length;i++){ //遍历所有动物
-            System.out.println(animals[i].name); //输出每个动物的名字
             animals[i].drink(); //每个动物喝水
             animals[i].eat(); //每个动物吃饭
         }
