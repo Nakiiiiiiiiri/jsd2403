@@ -9,6 +9,10 @@ public class HelloWorld {
         double b = 1.2;
         System.out.println(b);
         System.out.println("HelloWorld!");
-        System.out.println(a);
+        System.out.println(100%3.0);
+    }
+    void show(){
+
+        return;
     }
 }
