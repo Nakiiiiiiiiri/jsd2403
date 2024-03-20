@@ -13,6 +13,14 @@ public class StaticDemo {
         //b为静态变量在 方法区 中始终只有一份 走了三次b++
         StaticBlock o7 = new StaticBlock();
 
+        /*StaticMethod o4 = new StaticMethod();  不通过Static
+              int sum = o4.test(1,2);
+        System.out.println(sum);*/
+
+        int sum = StaticMethod.test(1,2);
+        System.out.println(sum);//类名.访问
+
+
 
 
 
