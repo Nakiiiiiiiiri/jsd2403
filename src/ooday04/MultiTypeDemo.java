@@ -1,4 +1,5 @@
 package ooday04;
+
 //多态
 public class MultiTypeDemo {
     public static void main(String[] args) {
