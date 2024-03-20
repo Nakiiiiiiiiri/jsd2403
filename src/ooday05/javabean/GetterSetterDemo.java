@@ -1,4 +1,4 @@
-package ooday05;
+package ooday05.javabean;
 
 public class GetterSetterDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ooday05;
+package ooday05.javabean;
 //标准javabean
 public class Point {
     private int x;
